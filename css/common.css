@@ -1,0 +1,103 @@
+
+.sec {
+    padding:16rem 0;
+    overflow-x: hidden;
+}
+.hero h2.tit {
+    font-family: "Odor Mean Chey", serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 4.4rem;
+    line-height: 5.4rem;
+    color: #fff;
+}
+
+h2.tit {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 4.7rem;
+    color:#1a1a1a
+}
+
+p.txt {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 2.2rem;
+}
+
+h4 {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}
+
+p.txt2 {
+    color: #9c9c9c;
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+}
+
+a.btn {
+    display: inline-block;
+    border: .1rem solid #000;
+    font-size: 1.3rem;
+    line-height: 4.8rem;
+    width: 14.6rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+a.btn.blue {
+    border-radius: 1rem;
+    background-color: #FF6A85;
+    border: none;
+    color: #fff;
+    font-size: 1.8rem;
+    width: 20.7rem;
+    height: 6.3rem;
+    line-height: 6.3rem;
+}
+
+a.btn.heroBtn {
+    font-family: "Odor Mean Chey", serif;
+    font-weight: bold;
+    font-style: normal;
+    border-radius: 1rem;
+    border-color: #fff;
+    color: #fff;
+    width: 18.5rem;
+    font-size: 1.5rem;
+    text-align: left;
+    padding: 0 2rem;
+    background: url(../img/visuBtn_arrow.png) no-repeat right 2rem center/3.2rem;
+    transition: all .2s ease-in-out;
+}
+
+a.btn.heroBtn:hover {
+    background: #fff url(../img/mvBtn_arrow_ov.png) no-repeat right 2rem center/3.2rem;
+    color: #000
+}
+
+.inner {
+    position: relative;
+    max-width: 154rem;
+    margin: auto;
+}
+
+section {
+    position: relative;
+    z-index: 0;
+}
+.lst_img{
+    position: relative;
+}
+.lst_txt h4 {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    transition: .2s ease-in-out;
+}
+.lst_txt p {
+    margin-top: .6rem;
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+    color:#9c9c9c
+}
